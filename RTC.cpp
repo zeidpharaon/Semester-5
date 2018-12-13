@@ -73,7 +73,7 @@ boolean earlierDate(struct Date d1, struct Date d2){
     return true;
   }else if(d1.minute > d2.minute){
     return false;
-  }else if(d1.second < d2.second){
+  }else if(d1.second <= d2.second){
     return true;
   }else if(d1.second > d2.second){
     return false;
